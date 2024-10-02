@@ -1,0 +1,64 @@
+Hello sir , I am Madhu krian from kurnool Andhra paradesh ,
+Coming to my experience currently having 1.6 years of experirenc in mern full stack developement.
+i am currently a mern full stack developer for a brightcom group company 
+Coming to 
+
+
+i am currently working at Brightcom group company as a mern full stack developer. 
+
+i am a mern full stack developer
+i am a web developer with experinece in reactjs,javascript  and having basic knowledge in databases in mysql,mongodb ..
+i developed social media web applciation having basic features like posting a images ,likes with emojis , nested comments , freind request, by using the socketio i am able to develop chat feature with restricted to friend only,
+
+
+
+Hello, i am  Madhu Krian, and I'm from Kurnool, Andhra Pradesh. I have 1.6 years of experience as a MERN full stack developer and am currently working at Brightcom Group.
+At Brightcom Group, I developed a social media web  application using the mern technologies,featuring image posting, emoji-based likes, nested comments, and friend requests. I successfully integrated a friend-restricted chat feature using Socket.io.I am using the cloudinary tool for storing the images.
+My technical skills include React.js, JavaScript, Node.js, Express, Socket.io, MySQL, and MongoDB. 
+I'm passionate about building responsive and user-friendly web applications and am always eager to learn and implement new technologies. 
+To enhance my skills ,currently i am doing certification in javascript from geeks for geeks and  mysql certification in hacker rank.
+I look forward to contributing my skills and continuing my professional growth in web development.
+
+
+
+
+This project not only strengthened my development skills but also improved my understanding of user experience and real-time communication. 
+
+
+
+------------------------------------------------------------------------------
+darft 3
+
+Draft3
+Hello, I am Madhu Kiran from Kurnool, Andhra Pradesh. I have 1.6 years of experience as a MERN full stack developer and am currently working at Brightcom Group. I graduated from KSRM College of Engineering with a degree in Civil Engineering in 2021, achieving a CGPA of 7.44.
+
+At Brightcom Group, I developed a social media web application using MERN technologies. The application features image posting, emoji-based likes, nested comments, friend requests, and login functionality using JWT tokens. I successfully integrated a friend-restricted chat feature using Socket.io and utilized Cloudinary for image storage.
+
+My technical skills include React.js, JavaScript, Node.js, Express, Socket.io, and a basic understanding of MySQL and MongoDB. I'm passionate about building responsive and user-friendly web applications and am always eager to learn and implement new technologies.
+
+To enhance my skills, I am currently pursuing a certification in JavaScript from GeeksforGeeks and a MySQL certification from HackerRank. I look forward to contributing my skills and continuing my professional growth in web development.
+
+---
+
+----------------------------------------------------------------------
+to explain my functionality ........
+
+developed envioronment .......... 
+testing environment ...............
+
+
+
+
+
+I have done my graduation from ksrm colleg of enginering....................................
+
+...........................
+...........................
+nene chesta'
+
+don't lift 
+
+
+
+i have developed a social media application using the mern technologies, React js and javascript 
+

@@ -1,0 +1,156 @@
+
+-- --// //  FOREIGN KEY \\ \\  - -- 
+CREATE TABLE IF NOT EXISTS DEPT (
+ ID INT PRIMARY KEY,
+ NAME VARCHAR(20) NOT NULL
+ );
+
+INSERT INTO DEPT VALUES 
+(1001,"JAVA"),(1002,"PYTHON");
+
+
+CREATE TABLE IF NOT EXISTS TEACHERS (
+ID INT PRIMARY KEY ,
+NAME VARCHAR(30),
+DEPT_ID INT,
+FOREIGN KEY (DEPT_ID) REFERENCES DEPT(ID)
+ON UPDATE CASCADE
+ON DELETE CASCADE
+);
+
+INSERT INTO TEACHERS VALUES 
+(101,"JA",1001),
+(102,"HA",1002),
+(103,"BA",1001);
+
+
+-- -- // /// INNER JOIN \\\ \\ -- -- 
+SELECT * 
+FROM TEACHERS AS T
+INNER JOIN DEPT AS D
+ON T.DEPT_ID = D.ID;
+
+
+-- -- // /// LEFT JOIN \\\ \\ -- -- 
+SELECT * 
+FROM DEPT AS D
+LEFT JOIN TEACHERS AS T 
+ON T.DEPT_ID = D.ID ;
+
+SELECT * 
+FROM TEACHERS AS T
+LEFT JOIN DEPT AS D
+ON T.DEPT_ID = D.ID ;
+
+
+-- -- // /// RIGHT JOIN \\\ \\
+SELECT * 
+FROM DEPT AS D 
+RIGHT JOIN TEACHERS AS T 
+ON D.ID = T.DEPT_ID;
+
+SELECT * 
+FROM TEACHERS AS T 
+RIGHT JOIN DEPT AS D
+ON D.ID = T.DEPT_ID;
+
+DROP TABLE DEPT;
+DROP TABLE TEACHERS;
+
+
+
+
+-------------------------------------------------
+SELECT * FROM apnacollege.emp;
+create database college;
+create database if not exists college;
+
+drop database sk; -- gives error-- 
+drop database if exists sk;
+SHOW databases;
+SHOW TABLES;
+
+-- -- drop table table_name;
+-- -- INSERT INTO TABLE_NAME (COL1,COL2) VALUES (VAL1,VAL2),(VAL1,VAL2),(..);
+-- -- OR
+-- -- if inserting order wise then no need ot give colum names specially -- 
+CREATE TABLE people (
+id INT PRIMARY KEY,
+Name varchar(25)
+
+);
+show tables;
+show databases;
+insert into people values(1,"ha");
+select * from people;
+insert into emp (id,name,age) values (3,"ha",27),(4,"h2",28);
+select * From emp;
+
+-- --task1
+create database if not exists xyz;
+use xyz;
+create table employes (
+id int primary key,
+name varchar(30),
+salary int);
+insert into employes values (1,"adam",25000),(2,"bob",30000),(3,"casey" ,40000);
+select * from employes;
+
+-- --task2-- 
+create table temp1 (
+id int primary key,
+name varchar(30),
+age int not null,
+userid varchar(28) unique
+);
+
+insert into temp1 values
+(1,"ha",25,"kira24"),(2,"ha2",26,"kiran24");
+select * from temp1;
+
+-- -- combination of primary keys 
+create table temp2(
+id int,
+NAME VARCHAR(39),
+age int not null,
+PRIMARY KEY (ID, NAME)
+);
+INSERT INTO TEMP2 VALUES(1,"kiraa",32),(1,"ha",23);
+select * from temp2;
+
+create table temp3 (
+id  int primary key,
+salary int default 21000);
+
+insert into temp3 (id) values (2),(3);
+
+select * from temp3;
+
+-- -- tsble practise
+create table student (
+rollno int primary key, 
+name varchar(40),
+marks int not null,
+grade varchar(1),
+city varchar(20)
+);
+
+INSERT INTO student (rollno, name, marks, grade, city) VALUES
+(1, 'Alice Johnson', 85, 'A', 'New York'),
+(2, 'Bob Smith', 75, 'B', 'Los Angeles'),
+(3, 'Charlie Brown', 90, 'A', 'Chicago'),
+(4, 'David Williams', 65, 'C', 'Houston'),
+(5, 'Eva Davis', 70, 'B', 'Phoenix'),
+(6, 'Frank Miller', 80, 'A', 'Philadelphia'),
+(7, 'Grace Lee', 78, 'B', 'San Antonio'),
+(8, 'Henry Wilson', 92, 'A', 'San Diego'),
+(9, 'Ivy Martinez', 88, 'A', 'Dallas'),
+(10, 'Jack Clark', 60, 'C', 'San Jose'),
+(11, 'Karen Lewis', 73, 'B', 'Austin'),
+(12, 'Liam Walker', 82, 'A', 'Jacksonville'),
+(13, 'Mia Hall', 67, 'C', 'Fort Worth'),
+(14, 'Noah Allen', 76, 'B', 'Columbus'),
+(15, 'Olivia Young', 89, 'A', 'Charlotte');
+	
+    
+------------------------------------------------------------------------------

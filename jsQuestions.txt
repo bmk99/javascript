@@ -1,0 +1,13 @@
+1. what are the loops in javascript? (for ex: for lopp,while etc)
+2. what is the difference between _for in_ and _for off_ loop?
+3.what is map and reduce in javascript ?
+4.Why we use redux in reactjs application?
+5.what are the hooks in react? 
+6. what is the use of _useCallback_ hook in react?
+7.What is the difference between _useCallback_ and _useMemo_ in react?
+8. what is the need of redux in large applications?
+9.what is uncontrolled state in react?
+10.what is the significance of key in react while mapping?
+11.you are given a react page having tables and it will take 5 to 10 seconds for rendering the page, how to debug the page?(question was Not clarity but approx)
+12.what are the error boundaries in react?
+13.Difference between _try and catch error in javascript_ and _error boundaries_ in react?

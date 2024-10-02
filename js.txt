@@ -1,0 +1,19 @@
+
+let obj  = {}
+arr1.forEach((ele) =>{
+ obj[ele.id] = ele
+})
+console.log(obj) 
+arr2.forEach((ele) =>{
+if(obj[ele.id]){
+obj[ele.id] ={...obj[ele.id], ...ele}
+}else{
+obj[ele.id] = {...ele}
+}
+}) 
+console.log(obj)
+console.log(Object.values(obj))
+----------------------------------------------
+
+const arr1 = [1,2,3,4,5,6,7]
+arr1.greeting = {name: "hello"}
